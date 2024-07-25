@@ -1,4 +1,4 @@
-# Image Generator
+# Image Generator using OpenAI API(GPT and Dall-E)
 
 This project generates card images based on given instructions using OpenAI's GPT-4 and DALL-E models. The process involves three main steps:
 
