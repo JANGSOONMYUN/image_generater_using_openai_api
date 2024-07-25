@@ -1,8 +1,8 @@
-# Tarot Card Image Generator
+# Image Generator
 
-This project generates tarot card images based on given instructions using OpenAI's GPT-4 and DALL-E models. The process involves three main steps:
+This project generates card images based on given instructions using OpenAI's GPT-4 and DALL-E models. The process involves three main steps:
 
-1. **Analyze the Input Target**: Interpret the input tarot card name.
+1. **Analyze the Input Target**: Interpret the input card name.
 2. **Generate a Prompt for DALL-E**: Create a detailed prompt for generating an image using DALL-E.
 3. **Create an Image Using DALL-E**: Use the generated prompt to create and save an image.
 
@@ -12,7 +12,7 @@ This project generates tarot card images based on given instructions using OpenA
   - Contains functions for initializing the OpenAI client, setting instructions and messages to the model, generating prompts, and creating images.
   
 - `run.py`: 
-  - Main script to execute the image generation process for a list of target tarot card names.
+  - Main script to execute the image generation process for a list of target card names.
   
 - `instructions.py`: 
   - Contains pre-set instructions for the models to follow during prompt generation and image generation.
@@ -32,8 +32,8 @@ This project generates tarot card images based on given instructions using OpenA
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/tarot-card-image-generator.git
-    cd tarot-card-image-generator
+    git clone https://github.com/JANGSOONMYUN/image_generater_using_openai_api
+    cd image_generater_using_openai_api
     ```
 
 2. **Prepare `config.json`**:
@@ -77,7 +77,7 @@ Replace `"YOUR_ORGANIZATION_ID"` and `"YOUR_API_KEY"` with your actual OpenAI or
 
 ### run.py
 
-- Sets up target tarot card names.
+- Sets up target card names.
 - Initializes the OpenAI client.
 - Iterates through the target names, generating prompts and images, and saving the results.
 
@@ -87,4 +87,4 @@ Contains the pre-set instructions for generating detailed prompts and converting
 
 ## Customization
 
-You can customize the list of target names in `run.py` and the instructions in `instructions.py` to generate different tarot cards or images with different themes.
+You can customize the list of target names in `run.py` and the instructions in `instructions.py` to generate different cards or images with different themes.
